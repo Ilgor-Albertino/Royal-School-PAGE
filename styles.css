@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+:root{
+ --text-color: rgb(4, 4, 131);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/english-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.title {
+    margin: 90px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+h1{
+    font-family: 'Itim', cursive;
+    color: white;
+
+}
+span{
+    color: var(--text-color);
+    font-family: 'Itim', cursive;
+}
+header ul li{
+    display: inline-block;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Itim', cursive;
+}
+header ul li:hover{
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: var(--text-color);
+    transition: 0.5s all;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    transition: .5s all;
+}
+#about{
+    display: flex;
+    justify-content:space-around;
+    margin: 100px;
+}
+.metodo{
+    max-width: 30%;
+}
+h2 {
+    font-family: 'Itim', cursive;
+    font-size: 50px;
+}
+.metodo p {
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+    margin-top: 50px;
+}
+.tech ul li {
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+margin-top: 10px; 
+}
+.tech ul li:last-child {
+    font-weight: bold;
+    font-size: 30px;
+}
+.tech ul li:first-child {
+    margin-top: 50px;
+}
+
+#conhecimento {
+    display: flex;
+    justify-content:space-around;
+    margin: 100px;
+}
+#conhecimento .teste {
+    max-width: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#conhecimento img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+#conhecimento p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Itim', cursive;
+}
+#conhecimento #btn {
+    height: 60px;
+    width: 350px;
+    border: 1px solid black;
+    font-style: italic;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    background-color: var(--text-color);
+    color: white;
+    border-radius: 50px;
+    
+}
+#conhecimento #btn:hover {
+  transform: scale(0.7);
+  cursor: pointer;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./images/english-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+
+
+}
+footer img {
+height: 55px;
+width: 55px;
+}
+.social {
+    display:flex;
+    flex-direction: column;
+margin: auto auto;
+}
+h3 {
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
+footer p {
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    color: white;
+}
